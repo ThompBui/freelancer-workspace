@@ -32,7 +32,7 @@ Solo freelancers and small agencies juggle **clients**, **projects**, **contract
 
 ## Screenshots
 
-> Add `docs/screenshots/dashboard-dark.png` and `docs/screenshots/dashboard-light.png` before publishing to GitHub for maximum impact.
+> Add `./docs/screenshots/dashboard-dark.png` and `./docs/screenshots/dashboard-light.png` before publishing to GitHub for maximum impact.
 
 | Dark mode | Light mode |
 |-----------|------------|
