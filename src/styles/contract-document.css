@@ -1,0 +1,130 @@
+/* Văn bản hợp đồng — khổ A4, Times New Roman, căn chuẩn VN */
+.contract-doc-wrapper {
+  background: #fff;
+  color: #000;
+}
+
+.contract-doc {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #000;
+  max-width: 21cm;
+  margin: 0 auto;
+  padding: 2cm 2.2cm 2.5cm;
+  text-align: left;
+}
+
+.contract-doc .contract-national {
+  text-align: center;
+  font-weight: 700;
+  font-size: 13pt;
+  margin: 0 0 0.15em;
+  text-transform: none;
+}
+
+.contract-doc .contract-national-sub {
+  text-align: center;
+  font-weight: 700;
+  font-size: 13pt;
+  margin: 0 0 0.5em;
+}
+
+.contract-doc .contract-rule {
+  text-align: center;
+  margin: 0.5em 0 1.25em;
+  letter-spacing: 0.05em;
+}
+
+.contract-doc .contract-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14pt;
+  text-transform: uppercase;
+  margin: 0 0 0.35em;
+}
+
+.contract-doc .contract-meta-center {
+  text-align: center;
+  font-style: italic;
+  margin: 0 0 1.25em;
+}
+
+.contract-doc .contract-intro {
+  text-align: justify;
+  text-indent: 1.27cm;
+  margin: 0 0 0.65em;
+}
+
+.contract-doc .contract-party {
+  text-align: justify;
+  margin: 0 0 0.35em;
+  text-indent: 0;
+}
+
+.contract-doc .contract-party strong,
+.contract-doc .contract-clause {
+  font-weight: 700;
+}
+
+.contract-doc .contract-clause {
+  text-align: justify;
+  margin: 1em 0 0.35em;
+  text-indent: 0;
+}
+
+.contract-doc .contract-paragraph {
+  text-align: justify;
+  text-indent: 1.27cm;
+  margin: 0 0 0.65em;
+}
+
+.contract-doc .contract-spacer {
+  height: 0.65em;
+}
+
+.contract-doc .contract-signatures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2.5em;
+  page-break-inside: avoid;
+}
+
+.contract-doc .contract-sign-col {
+  text-align: center;
+}
+
+.contract-doc .contract-sign-col p {
+  margin: 0 0 0.25em;
+  font-weight: 700;
+  font-size: 13pt;
+}
+
+.contract-doc .contract-sign-line {
+  font-weight: 400 !important;
+  font-style: italic;
+  margin-top: 4.5em !important;
+  font-size: 12pt !important;
+}
+
+/* Nội dung import từ Google Docs (HTML) */
+.contract-doc.contract-doc--imported p {
+  text-align: justify;
+  text-indent: 1.27cm;
+  margin: 0 0 0.65em;
+}
+
+.contract-doc.contract-doc--imported h1,
+.contract-doc.contract-doc--imported h2,
+.contract-doc.contract-doc--imported h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+@media print {
+  .contract-doc {
+    padding: 1.5cm 2cm;
+    max-width: none;
+  }
+}
