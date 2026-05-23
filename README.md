@@ -15,6 +15,8 @@ English | [Tiếng Việt](README.vi.md) | [简体中文](README.zh-CN.md) | [�
 ## Why ThompBui?
 
 Solo freelancers and small agencies juggle **clients**, **projects**, **contracts**, **hosting renewals**, and **team chat** across too many tools. ThompBui brings the essentials into a single **dark/light**, **multilingual** workspace with a modern SaaS-style UI.
+- [Thomp Bui](https://www.facebook.com/thompbui) 
+- [DabiluxDesign](https://dabilux.com)
 
 ## Features
 
@@ -36,7 +38,7 @@ Solo freelancers and small agencies juggle **clients**, **projects**, **contract
 
 | Dark mode | Light mode |
 |-----------|------------|
-| *Coming soon* | *Coming soon* |
+| *Yes* | *Yes* |
 
 ## Demo
 
@@ -77,15 +79,7 @@ npm install
 
 ### Environment (optional — AI search)
 
-Copy `.env.example` to `.env.local`:
-
-```env
-VITE_AI_API_KEY=sk-...
-VITE_AI_API_BASE=https://api.openai.com/v1
-VITE_AI_MODEL=gpt-4o-mini
-```
-
-Or set the API key in **Settings → AI API** (stored in browser `localStorage` for demo).
+Sset the API key in **Settings → AI API** (stored in browser `localStorage` for demo).
 
 ## Usage
 
