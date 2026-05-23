@@ -11,7 +11,7 @@ English | [Tiếng Việt](README.vi.md) | [简体中文](README.zh-CN.md) | [�
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 
 ---
-
+![Ảnh màn hình](https://dabilux.com/wp-content/uploads/2026/05/Screenshot-2026-05-23-122027-scaled.png)
 ## Why ThompBui?
 
 Solo freelancers and small agencies juggle **clients**, **projects**, **contracts**, **hosting renewals**, and **team chat** across too many tools. ThompBui brings the essentials into a single **dark/light**, **multilingual** workspace with a modern SaaS-style UI.
@@ -32,7 +32,7 @@ Solo freelancers and small agencies juggle **clients**, **projects**, **contract
 
 ## Screenshots
 
-> Add `./docs/screenshots/dashboard-dark.png` and `./docs/screenshots/dashboard-light.png` before publishing to GitHub for maximum impact.
+![Ảnh màn hình](https://dabilux.com/wp-content/uploads/2026/05/Screenshot-2026-05-23-122009-scaled.png)
 
 | Dark mode | Light mode |
 |-----------|------------|
